@@ -1,0 +1,24 @@
+{
+  "name": "hw-js",
+  "version": "1.0.0",
+  "description": "\"NPM basics\",",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Va110k/HW-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Va110k/HW-JS/issues"
+  },
+  "homepage": "https://github.com/Va110k/HW-JS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "shortid": "^2.2.16"
+  }
+}
