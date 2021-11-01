@@ -4,7 +4,8 @@
   "description": "\"NPM basics\",",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,13 @@
   },
   "homepage": "https://github.com/Va110k/HW-JS#readme",
   "dependencies": {
-    "express": "^4.17.1",
     "joi": "^17.4.2",
     "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "parcel": "^2.0.0"
   }
 }
